@@ -1,0 +1,5 @@
+adapter: postgresql
+database: telegrambotboilerplate
+encoding: unicode
+pool: 5
+timeout: 5000
