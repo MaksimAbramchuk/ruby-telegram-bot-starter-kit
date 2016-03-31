@@ -11,6 +11,22 @@
 
 ## Usage
 
+### Defining responses
+
+Use the `on` method in `message_responder.rb` like in the example below:
+
+```ruby
+def respond
+  on /^\/start/ do
+    answer_with_greeting_message
+  end
+
+  on /^\/command (.+)/ do |arg| #supports up to two arguments but it is easily extendable
+    # do your stuff
+  end
+end
+```
+
 ### Running the bot
 For the first you need to create `secrets.yml` where your bot unique token will be stored and `database.yml` where database credentials will be stored. I've already created samples for you, so you can easily do:
 

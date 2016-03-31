@@ -13,15 +13,32 @@ class MessageResponder
   end
 
   def respond
-    case message.text
-    when '/start'
+    on /^\/start/ do
       answer_with_greeting_message
-    when '/stop'
+    end
+
+    on /^\/stop/ do
       answer_with_farewell_message
     end
   end
 
   private
+
+  def on regex, &block
+    regex =~ message.text
+
+    if $~
+      case block.arity
+      when 0
+        yield
+      when 1
+        yield $1
+      when 2
+        yield $1, $2
+      end
+    end
+
+  end
 
   def answer_with_greeting_message
     text = I18n.t('greeting_message')
