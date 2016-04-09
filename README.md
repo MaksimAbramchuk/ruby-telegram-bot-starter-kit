@@ -28,7 +28,13 @@ end
 ```
 
 ### Running the bot
-For the first you need to create `secrets.yml` where your bot unique token will be stored and `database.yml` where database credentials will be stored. I've already created samples for you, so you can easily do:
+For the first you need to install gems required to start a bot:
+
+```sh
+bundle install
+```
+
+Then you need to create `secrets.yml` where your bot unique token will be stored and `database.yml` where database credentials will be stored. I've already created samples for you, so you can easily do:
 
 ```sh
 cp config/database.yml.sample config/database.yml
