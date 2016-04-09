@@ -35,9 +35,9 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
-    ice_nine (0.11.1)
+    ice_nine (0.11.2)
     json (1.8.3)
-    mimemagic (0.3.0)
+    mimemagic (0.3.1)
     minitest (5.8.3)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -48,7 +48,7 @@ GEM
       persistent_http (< 2)
     pg (0.18.4)
     rake (11.1.2)
-    telegram-bot-ruby (0.2.6)
+    telegram-bot-ruby (0.4.2)
       httmultiparty
       persistent_httparty
       virtus
@@ -69,4 +69,4 @@ DEPENDENCIES
   i18n (~> 0.7.0)
   pg
   rake
-  telegram-bot-ruby (~> 0.2.6)
+  telegram-bot-ruby (~> 0.4.2)
