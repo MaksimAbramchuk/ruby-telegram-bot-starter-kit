@@ -50,4 +50,8 @@ class MessageResponder
 
     MessageSender.new(bot: bot, chat: message.chat, text: text).send
   end
+
+  def answer_with_message(text)
+    MessageSender.new(bot: bot, chat: message.chat, text: text).send
+  end
 end
