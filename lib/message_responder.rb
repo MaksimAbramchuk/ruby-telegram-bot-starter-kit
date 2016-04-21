@@ -37,7 +37,6 @@ class MessageResponder
         yield $1, $2
       end
     end
-
   end
 
   def answer_with_greeting_message

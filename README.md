@@ -68,8 +68,8 @@ bin/bot
     │   ├── secrets.yml.sample           # sample credentials file
     │   └── locales.yml                  # file with i18n locales
     ├── db                               # database related stuff
-    │   ├── migrate                      # migrations
-    │   └── 001_create_users.rb          # migration for creating table 'users'
+    │   └── migrate                      # migrations
+    │       └── 001_create_users.rb      # migration for creating table 'users'
     ├── lib                              # helper libs folder
     │   ├── app_configurator.rb          # class for application configuration
     │   ├── database_connector.rb        # class for connecting to database
