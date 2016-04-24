@@ -40,15 +40,11 @@ class MessageResponder
   end
 
   def answer_with_greeting_message
-    text = I18n.t('greeting_message')
-
-    MessageSender.new(bot: bot, chat: message.chat, text: text).send
+    answer_with_message I18n.t('greeting_message')
   end
 
   def answer_with_farewell_message
-    text = I18n.t('farewell_message')
-
-    MessageSender.new(bot: bot, chat: message.chat, text: text).send
+    answer_with_message I18n.t('farewell_message')
   end
 
   def answer_with_message(text)
