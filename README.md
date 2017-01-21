@@ -2,6 +2,10 @@
 ![Ruby and Telegram](https://hsto.org/files/914/1c2/d17/9141c2d17d074b8d8758a955f7fd575a.png)
 
 ## UPD (20.06.2016)
+I’ve started my channel at Telegram where I usually discuss news happening in the world of bots. Worth subscribing!
+
+[Read channel](https://t.me/botcube)
+
 If you want to use Webhooks API instead of long-polling, be able to save state and create more scalable and powerful bot read the article below.
 
 [Full guide on creating statefull Telegram bot](https://medium.com/@MaximAbramchuk/full-guide-on-creating-statefull-telegram-bot-523def0a7930#.swi40vlx9)
