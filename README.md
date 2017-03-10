@@ -2,13 +2,13 @@
 ![Ruby and Telegram](https://hsto.org/files/914/1c2/d17/9141c2d17d074b8d8758a955f7fd575a.png)
 
 ## UPD (20.06.2016)
-I’ve started my channel at Telegram where I usually discuss news happening in the world of bots. Worth subscribing!
+I've created an awesome list of resources related to bots (from tutorials and SDKs to the events and people). Be sure to [check it out](https://github.com/BotCube/awesome-bots)!
 
-[Read channel](https://t.me/botcube)
+[Awesome bots list](https://github.com/BotCube/awesome-bots)
 
 If you want to use Webhooks API instead of long-polling, be able to save state and create more scalable and powerful bot read the article below.
 
-[Full guide on creating statefull Telegram bot](https://medium.com/@MaximAbramchuk/full-guide-on-creating-statefull-telegram-bot-523def0a7930#.swi40vlx9)
+[Full guide on creating statefull Telegram bot](https://botcube.co/blog/2017/02/04/full-guide-on-creating-telegram-bot-with-rails.html)
 
 ## Features
 * Ability to save some data to a local database (Postgres by default)
